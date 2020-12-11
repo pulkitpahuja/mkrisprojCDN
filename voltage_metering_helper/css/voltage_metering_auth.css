@@ -1,0 +1,161 @@
+body {
+	background:#fff;
+   font-family: 'Roboto';
+}
+
+.try{
+   width: 80%;
+   font-size: 14px;
+   color: rgb(256,0,0);
+   letter-spacing: 1px;
+   font-size: 14px;
+   text-align: center;
+   margin-top: 5px;
+   margin-bottom: 50px;
+   margin-left: 46px;
+
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #748194;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #748194;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #748194;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #748194;
+}
+.container{
+   display:none;
+   position:absolute;
+	width: auto;
+	height:auto;
+	top: calc(50% - 240px);
+	left: calc(40% - 160px);
+   border-radius:15px 15px 15px 15px;
+}
+.c1{
+   box-shadow:0 0 10px grey;
+   background-color:white;
+   width:300px;
+   height:500px;
+   display:inline-block;
+   border-radius:15px 15px 15px 15px;
+   overflow: auto;
+}
+
+.c11{
+   background-image:url('https://i.pinimg.com/236x/4f/d8/0a/4fd80aca68c67f7105168b231462e9b3--desktop-backgrounds-electrical-engineering.jpg');
+   background-size:300px 400px;
+   background-repeat: no-repeat;
+   background-color:white;
+   width:100%;
+   height:400px;
+   display:inline-block;
+   position:absolute;
+   z-index:4;
+   border-radius:15px 15px 200px 200px;
+}
+
+#left{
+   border-radius:15px 0px 0px 15px;
+   color:white;
+   display: inline-block;
+   width:146px;
+   height: 500px;
+   background-color:white;
+   cursor:pointer;
+}
+
+.left_hover{
+   color:#EE9BA3;
+   box-shadow: 5px 0 18px -10px #333;
+   z-index:1;
+   position:absolute;
+}
+
+.s1class{
+   color:#748194;
+   position:absolute;
+   bottom:0;
+   left:80%;
+   margin-left: -50%;
+}
+.s1class span,  .s2class span{
+   display:block;
+}
+.su{
+   font-size:20px;
+}
+
+.mainhead{
+   color:white;
+   font-size:24px;
+   text-align:center;
+   margin-top:50px;
+}
+.mainp{
+   color:white;
+   font-size:13px;
+   text-align:center;
+   margin-top:10px;
+}
+.c2{
+   background-color:white;
+   width:300px;
+   height:500px;
+   border-radius:15px;
+   position:absolute;
+   left:370px;
+   display:inline-block;
+}
+.username{
+   font-weight: bold;
+   width: 200px;
+   margin: 0 35px 20px ;
+   height: 35px;
+   padding: 6px 15px;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   background: #F6F7F9;
+   color: #748194;
+   font-size: 14px;
+}
+.btn{
+   font-weight: bold;
+   width: 230px;
+   margin: 0 35px 20px ;
+   height: 45px;
+   padding: 6px 15px;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   background: #2f375e;
+   color: white;
+   font-size: 14px;
+}
+.signup1{
+   color:#748194;
+   font-size:2vw;
+   text-align:center;
+}
+a{
+   text-decoration: none;
+}
+.signup2{
+   color:#748194;
+   font-size:1.6vw;
+   text-align:center;
+}
+.signup{
+   display:initial;
+}
+.signin{
+   display:initial;
+}
+

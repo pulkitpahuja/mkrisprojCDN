@@ -1,0 +1,165 @@
+html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+
+    }
+  .feather {
+    width: 16px;
+    height: 16px;
+    vertical-align: text-bottom;
+  }
+  
+  /*
+   * Sidebar
+   */
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100; /* Behind the navbar */
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+  }
+  
+
+  .sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  }
+  
+  @supports ((position: -webkit-sticky) or (position: sticky)) {
+    .sidebar-sticky {
+      position: -webkit-sticky;
+      position: sticky;
+    }
+  }
+  
+  .sidebar .nav-link {
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .sidebar .nav-link .feather {
+    margin-right: 4px;
+    color: #999;
+  }
+  
+  .sidebar .nav-link.active {
+    color: #007bff;
+  }
+  
+  .sidebar .nav-link:hover .feather,
+  .sidebar .nav-link.active .feather {
+    color: inherit;
+  }
+  
+  .sidebar-heading {
+    font-size: .75rem;
+    text-transform: uppercase;
+  }
+  
+  /*
+   * Navbar
+   */
+  
+  .navbar-brand {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, .25);
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+  }
+  
+  .navbar .navbar-toggler {
+    top: .25rem;
+    right: 1rem;
+  }
+  
+  .navbar .form-control {
+    padding: .75rem 1rem;
+    border-width: 0;
+    border-radius: 0;
+  }
+  
+  .form-control-dark {
+    color: #fff;
+    background-color: rgba(255, 255, 255, .1);
+    border-color: rgba(255, 255, 255, .1);
+  }
+  
+  .form-control-dark:focus {
+    border-color: transparent;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+  }
+  .legend {
+    padding: 6px 8px;
+    font: 14px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255, 255, 255, 0.8);
+    /*box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);*/
+    /*border-radius: 5px;*/
+    line-height: 24px;
+    color: #555;
+  }
+  .legend h4 {
+    text-align: center;
+    font-size: 16px;
+    margin: 2px 12px 8px;
+    color: #777;
+  }
+  
+  .legend span {
+    position: relative;
+    bottom: 3px;
+  }
+  
+  .legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin: 0 8px 0 0;
+    opacity: 0.7;
+  }
+  
+  .legend i.icon {
+    background-size: 18px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  
+.border-left-primary{border-left:.25rem solid #4e73df!important}
+.border-bottom-primary{border-bottom:.25rem solid #4e73df!important}
+.border-left-secondary{border-left:.25rem solid #858796!important}
+.border-bottom-secondary{border-bottom:.25rem solid #858796!important}
+.border-left-success{border-left:.25rem solid #1cc88a!important}
+.border-bottom-success{border-bottom:.25rem solid #1cc88a!important}
+.border-left-info{border-left:.25rem solid #36b9cc!important}
+.border-bottom-info{border-bottom:.25rem solid #36b9cc!important}
+.border-left-warning{border-left:.25rem solid #f6c23e!important}
+.border-bottom-warning{border-bottom:.25rem solid #f6c23e!important}
+.border-left-danger{border-left:.25rem solid #e74a3b!important}
+.border-bottom-danger{border-bottom:.25rem solid #e74a3b!important}
+.border-left-light{border-left:.25rem solid #f8f9fc!important}
+.border-bottom-light{border-bottom:.25rem solid #f8f9fc!important}
+.border-left-dark{border-left:.25rem solid #5a5c69!important}
+.border-bottom-dark{border-bottom:.25rem solid #5a5c69!important}
+#mapid {
+  height: 530px;
+}
+
+
+.text-xs{font-size:.9rem}.text-lg{font-size:1.2rem}.text-gray-100{color:#f8f9fc!important}.text-gray-200{color:#eaecf4!important}.text-gray-300{color:#dddfeb!important}.text-gray-400{color:#d1d3e2!important}.text-gray-500{color:#b7b9cc!important}.text-gray-600{color:#858796!important}.text-gray-700{color:#6e707e!important}.text-gray-800{color:#5a5c69!important}.text-gray-900{color:#3a3b45!important}
